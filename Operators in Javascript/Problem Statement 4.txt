@@ -1,0 +1,9 @@
+
+
+const age = 12;
+const canVote = age >= 21 ? true : false; // true
+if(canVote){
+    console.log("You can vote");
+}else{
+    console.log("You cannot vote");
+}

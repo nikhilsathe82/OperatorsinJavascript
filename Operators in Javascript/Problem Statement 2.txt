@@ -1,0 +1,12 @@
+Problem Statement 2
+JavaScript uses a comma (,) to represent the comma operator.
+A comma operator takes two expressions, evaluates them from left to right, and returns the value of the right expression.
+
+for example:
+let x = 20
+let y = (x++, x+2)
+
+console.log(y); //23
+
+explanation:
+In this example, we increase the value of x by one (x++), add 2 to x (x+2) and assign x to y. Therefore, x is 22, and y is 23 after the statement.

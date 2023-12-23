@@ -1,0 +1,26 @@
+
+Ternary operator:
+Ternary operator is the one that requires three values for performing an operation.
+In Javascript, there is only one ternary operator that is conditional operator ?...:
+
+Example: 
+// Conditional operators
+const age = 21;
+const canVote = age >= 21 ? true : false; // true
+
+Program to check whether the number is even or odd using the ternary operator.
+
+function oddEven(num){
+
+    return num%2 == 0 ? true : false;
+}
+
+const res = oddEven(5);
+if(res)
+{
+    console.log("The number is even");
+} else
+{
+    console.log("The number is odd");
+}
+
